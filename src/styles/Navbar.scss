@@ -1,0 +1,39 @@
+/* Navbar.scss */
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    height: 75px;
+    box-sizing: border-box;
+    z-index: 1000; 
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid #ECEEEF;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar-item {
+    margin: 0;
+  }
+
+  .navbar-portal {
+    position: relative;
+    bottom: 40px;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: gray; 
+  }
+  
+  

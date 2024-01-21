@@ -1,0 +1,17 @@
+
+.carousel .control-dots .dot {
+    background-color: #d6d9d8; 
+  }
+  
+  .carousel .control-dots .dot.selected {
+    background-color: #ff0000; 
+  }
+  
+
+.carousel-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}

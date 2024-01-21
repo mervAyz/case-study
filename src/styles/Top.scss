@@ -1,0 +1,77 @@
+/* Top.scss */
+
+.top {
+  width: 100%;
+  color: white;
+  padding: 10px 15px; 
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px) {
+  .top {
+    position: relative;
+    width: auto;
+  }
+}
+
+
+.top-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-left {
+  display: flex;
+  align-items: center;
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .top-right{
+    padding-right: 0px;
+  }
+}
+
+.icon {
+  font-size: 24px;
+
+  &-right-oval {
+    padding-right: 30px;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &-right-giris {
+    padding-right: 12px;
+    border: none;
+    background: #FFFFFF;
+  }
+}
+
+button-icon {
+  width: 24px;
+}
+
+.site-name {
+  font-size: 18px;
+  font-weight: bold;
+}
