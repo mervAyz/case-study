@@ -6,6 +6,7 @@ import path from './Path.png'
 import kesfet from './Kesfet.png';
 import portal from './Portal.png';
 import dahaCuzdan from './DahaCuzdan.png';
+import rectangle from './Rectangle.png';
 
 const images = {
     dahaDaha,
@@ -15,7 +16,8 @@ const images = {
     path,
     kesfet,
     portal,
-    dahaCuzdan
+    dahaCuzdan,
+    rectangle
 };
 
 export default images;

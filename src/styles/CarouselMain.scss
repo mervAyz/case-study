@@ -15,3 +15,16 @@
     padding-top: 50px;
 
 }
+
+.shape {
+  position: absolute;
+  top: 400px;
+  z-index: -1;
+  width: 300px;
+}
+
+@media only screen and (max-width: 767px) {
+  .shape {
+    top: 280px;
+  }
+}

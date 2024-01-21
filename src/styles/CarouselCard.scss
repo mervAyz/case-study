@@ -1,9 +1,24 @@
+.carousel-card-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .shape {
+        position: absolute;
+        top: 50px;
+        z-index: -1;  // Keep this for the background image
+    }
+}
+
 .carousel-card {
-    width:300px;
+    position: relative;  // Add this line
+    width: 300px;
     height: 400px;
     background-color: #FFFFFF;
     border: 1px solid #F4F6F5;
     border-radius: 20px;
+    z-index: 0;  // Set a z-index for the carousel-card
 
     :hover {
         cursor: pointer;
@@ -45,4 +60,11 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
+}
+
+.brand-image {
+    position: absolute;
+    top: 200px;
+    width: 55px;
+    height: 55px;
 }

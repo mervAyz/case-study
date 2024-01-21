@@ -49,6 +49,9 @@ const Detail: React.FC = () => {
           <div className='detail-header-img'>
             <img src={fetchedData?.ImageUrl} alt={`Icon for ${fetchedData.Name}`} />
           </div>
+          <div className='detail-brand-image'>
+            <img width={80} src={fetchedData?.BrandIconUrl} alt={`Icon for ${fetchedData.Name}`} />
+          </div>
           <div className='detail-context'>
             <div dangerouslySetInnerHTML={{ __html: fetchedData?.Title }} />
             <div className='detail-context-description' dangerouslySetInnerHTML={{ __html: fetchedData?.Description }} />

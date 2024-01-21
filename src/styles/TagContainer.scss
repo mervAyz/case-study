@@ -1,0 +1,27 @@
+
+
+.deneme-container {
+  width: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .deneme-container {
+    width: 300px;
+  }
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding-top: 50px;
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  .slider-container  {
+    max-width: 600px;
+  }
+}
