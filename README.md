@@ -1,40 +1,39 @@
 # Kaizen Case Study
 
-Bu proje, React.js ve TypeScript Kullanılarak geliştirilmiştir.React-router-dom kullanılarak 2 sayfalı bir web uygulaması geliştirilmiştir.
+This project has been developed using React.js and TypeScript. A 2-page web application has been created using react-router-dom.
 
-## Başlangıç
+## Getting Started
 
-Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları takip edin.
+Follow the steps below to run the project on your local environment.
 
-### Gereksinimler
+### Requirements
+You must have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your computer to run the project.
 
-Projeyi çalıştırmak için bilgisayarınızda [Node.js](https://nodejs.org/) ve [npm](https://www.npmjs.com/) yüklü olmalıdır.
+### Installation
 
-### Kurulum
-
-1. Repoyu bilgisayarınıza klonlayın.
+1. Clone the repository to your computer.
 
    ```bash
    git clone https://github.com/mervAyz/case-study.git
 
-2. Proje dizinine gidin.
+2. Navigate to the project directory.
 
     ```bash
     cd case-study
    
-3. Bağımlılıkları yükleyin.
+3. Install the dependencies.
 
     ```bash
     npm install
 
-### Çalıştırma
-Proje bağımlılıkları yükledikten sonra aşağıdaki komutla uygulamayı başlatabilirsiniz
+### Running the Application
+After installing the dependencies, you can start the application with the following command:
 
     npm start
 
-Tarayıcınızda http://localhost:3000 adresine giderek uygulamayı görebilirsiniz.
+Visit http://localhost:3000 in your browser to see the application.
 
-### Kullanılan Teknolojiler
+### Technologies Used
 - React.js ("^18.2.0")
 - TypeScript
 - Postman
@@ -43,7 +42,7 @@ Tarayıcınızda http://localhost:3000 adresine giderek uygulamayı görebilirsi
 - React-responsive-carousel
 - Axios
 
-### Uygulama ekran görüntüleri
+### Application Screenshots
 
 ![Anasayfa](./src/assets/Snippet1.PNG)
 ![Detay](./src/assets/Snippet2.PNG)
